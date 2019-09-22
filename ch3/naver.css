@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Cascading Style Sheet */
+/* 선택자(selector) */
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+#header-center {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+#header-search a {
+    text-decoration: none;
+}
+
+#header-search h1 {
+    width: 198px;
+    height: 48px;
+    display: inline-block;
+    /*background-image: url(./sp_search.png);*/
+    /*background-position: -4px -10px;*/
+    /*background-repeat: no-repeat;*/
+    background: url(./sp_search.png) -4px -4px no-repeat;
+    vertical-align: middle;
+    position: relative;
+    top: -6px;
+}
+
+#header-search h1 span {
+    display: none;
+}
+
+#header-search h2 {
+    display: none;
+}
+
+#header-search fieldset {
+    margin-left: 20px;
+    /*padding-top: 12px;*/
+    /*padding-bottom: 12px;*/
+    /*padding-left: 10px;*/
+    /*padding-right: 0;*/
+    padding: 12px 0 12px 10px;
+    width: 521px;
+    height: 49px;
+    display: inline-block;
+    border: 2px solid #03cf5d; /* hex */
+    vertical-align: middle;
+    position: relative;
+}
+
+#header-search fieldset input {
+    border: none;
+    padding: 0;
+    outline: none;
+    vertical-align: top;
+    width: 405px;
+    height: 23px;
+}
+
+#header-search fieldset button {
+    width: 49px;
+    height: 49px;
+    border: none;
+    padding: 0;
+    background: #03cf5d;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+}
+
+#search-image {
+    background-image: url(./sp_search.png);
+    background-position: -3px -60px;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    margin: 14px;
+}
