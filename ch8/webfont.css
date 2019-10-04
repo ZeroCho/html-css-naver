@@ -1,0 +1,27 @@
+@font-face {
+    font-weight: 400;
+    font-family: NanumSquare;
+    src: url(https://s.pstatic.net/static/www/font/NanumSquareR.eot);
+    src: url(https://s.pstatic.net/static/www/font/NanumSquareR.eot?#iefix) format("embedded-opentype"), url(https://s.pstatic.net/static/www/font/NanumSquareR.woff) format("woff"), url(https://s.pstatic.net/static/www/font/NanumSquareR.ttf) format("truetype")
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: NanumSquare;
+    src: url(https://s.pstatic.net/static/www/font/NanumSquareL.eot);
+    src: url(https://s.pstatic.net/static/www/font/NanumSquareL.eot?#iefix) format("embedded-opentype"), url(https://s.pstatic.net/static/www/font/NanumSquareL.woff) format("woff"), url(https://s.pstatic.net/static/www/font/NanumSquareL.ttf) format("truetype")
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: NanumSquare;
+    src: url(https://s.pstatic.net/static/www/font/NanumSquareB.eot);
+    src: url(https://s.pstatic.net/static/www/font/NanumSquareB.eot?#iefix) format("embedded-opentype"), url(https://s.pstatic.net/static/www/font/NanumSquareB.woff) format("woff"), url(https://s.pstatic.net/static/www/font/NanumSquareB.ttf) format("truetype")
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: NanumSquare;
+    src: url(https://s.pstatic.net/static/www/font/NanumSquareEB.eot);
+    src: url(https://s.pstatic.net/static/www/font/NanumSquareEB.eot?#iefix) format("embedded-opentype"), url(https://s.pstatic.net/static/www/font/NanumSquareEB.woff) format("woff"), url(https://s.pstatic.net/static/www/font/NanumSquareEB.ttf) format("truetype")
+}
